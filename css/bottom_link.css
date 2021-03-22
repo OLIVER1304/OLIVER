@@ -1,0 +1,71 @@
+  a:link {
+      text-decoration: none;
+  }
+  
+  a:visited {
+      text-decoration: none;
+  }
+  
+  a:hover {
+      text-decoration: none;
+  }
+  
+  a:active {
+      text-decoration: none;
+  }
+  
+  .up {
+      position: relative;
+      background-image: url(../img/二维码.png);
+      background-repeat: no-repeat;
+  }
+  
+  .up-content {
+      display: none;
+      margin-top: -205px;
+      margin-left: -45px;
+      text-align: left;
+  }
+  
+  .up-content1 {
+      display: none;
+      margin-top: -20px;
+      margin-left: 52.5px;
+      font-size: 70px;
+      font-size-adjust: 0.1;
+      color: rgb(224, 221, 221);
+  }
+  
+  .up:hover .up-content {
+      display: block;
+      position: relative;
+      margin-right: -100px;
+  }
+  
+  .up:hover .up-content1 {
+      display: block;
+      position: relative;
+      margin-right: -100px;
+  }
+  
+  .j {
+      background-image: url(../img/向左.png);
+      background-repeat: no-repeat;
+  }
+  
+  .k {
+      background-image: url(../img/向右.png);
+      background-repeat: no-repeat;
+  }
+  
+  .x {
+      background-image: url(../img/感叹号.png);
+      background-repeat: no-repeat;
+  }
+  
+  .br_ {
+      height: 40px;
+      width: 40px;
+      float: left;
+      margin: 0 10px;
+  }

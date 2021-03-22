@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/背景.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1880px) {
+    .container {
+        width: 1900px;
+        height: 870px;
+        position: relative;
+    }
+    .m2 {
+        position: relative;
+        float: right;
+        margin-right: 3%;
+        width: 10%;
+    }
+    .m4 {
+        height: 50px;
+        width: 250px;
+        bottom: 0;
+        float: right;
+    }
+    .inp {
+        width: 46em;
+    }
+    .v {
+        width: 50em;
+    }
+}
+
+@media (max-width:1870px) {
+    .container {
+        width: 1500px;
+        height: 780px;
+    }
+    .m2 {
+        position: relative;
+        float: right;
+        margin-right: 3%;
+        width: 15%;
+    }
+    .m4 {
+        height: 50px;
+        width: 250px;
+        bottom: 0;
+        float: right;
+    }
+    .inp {
+        width: 36em;
+    }
+    .v {
+        width: 40em;
+    }
+}
+
+@media (max-width:1670px) {
+    .container {
+        width: 1200px;
+    }
+    .m4 {
+        height: 50px;
+        width: 250px;
+        bottom: 0;
+        float: right;
+    }
+    .inp {
+        width: 36em;
+    }
+    .v {
+        width: 40em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .m2 {
+        position: relative;
+        float: right;
+        margin-right: 3%;
+        width: 15%;
+    }
+    .inp {
+        width: 36em;
+    }
+    .v {
+        width: 40em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .m4 {
+        height: 50px;
+        width: 250px;
+        bottom: 0;
+        float: right;
+        transform: translate(90%, 0);
+    }
+}

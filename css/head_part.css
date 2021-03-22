@@ -1,0 +1,33 @@
+.head_part {
+    margin-top: 1%;
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    float: left;
+    width: 600px;
+}
+
+.nav a {
+    width: 30px;
+    height: 17px;
+    position: relative;
+    background-color: transparent;
+    color: rgb(255, 254, 254);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0 3.5%;
+}
+
+.nav a:nth-child(1) {
+    margin-left: 8%;
+}
+
+.l {
+    color: #fff;
+    display: inline-block;
+    margin: 3px 2%;
+    font-size: 1px;
+}

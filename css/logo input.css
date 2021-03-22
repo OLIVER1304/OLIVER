@@ -1,0 +1,95 @@
+.logo_in {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+input,
+button {
+    border: none;
+}
+
+.search {
+    width: 50em;
+    height: 7em;
+    display: inline-block;
+    position: relative;
+}
+
+.logo {
+    width: 220px;
+    height: 90px;
+    display: inline-block;
+    background-image: url(../img/being.png);
+    background-size: 15em;
+    background-repeat: no-repeat;
+}
+
+.logo a {
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+
+#switch {
+    height: 40px;
+    width: 80px;
+    position: absolute;
+}
+
+.e {
+    margin-left: 0;
+    text-align: left;
+    display: grid;
+    width: 20;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 36px 5px;
+    border-color: transparent transparent #faffff #fbfcfc;
+}
+
+#switch1 {
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    margin-left: 70px;
+}
+
+.w {
+    text-align: left;
+    display: grid;
+    width: 20;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 36px 5px;
+    border-color: transparent transparent #f8fcfc #f9fafa;
+}
+
+.v {
+    height: 59px;
+    float: left;
+    margin-top: 35px;
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+}
+
+.inp {
+    height: 55px;
+    margin-top: 0px;
+    padding-left: 30px;
+    background: rgb(253, 253, 253);
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 0px;
+    background: rgb(253, 253, 253);
+    background-image: url(../img/搜索按钮.png);
+    background-size: 3em;
+    border-radius: 5px;
+    outline: none;
+}
